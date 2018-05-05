@@ -6,9 +6,9 @@ func _ready():
 	
 func show_sprite():
 	var image = Image.new()
-	image.load("res://icon.png")
+	#image.load("res://icon.png")
 	#image.load("res://images/icon.png")
-	#image.load("res://game_over.png")
+	image.load("res://game_over.png")
 	var sprite = Sprite.new() 
 	sprite.position = Vector2(0,0)
 	sprite.texture = ImageTexture.new()
